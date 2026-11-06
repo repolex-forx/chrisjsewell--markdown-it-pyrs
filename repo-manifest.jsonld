@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/chrisjsewell/markdown-it-pyrs/commit/86cf6f4c87bdbc7eac9cf03c0095a48c10a9f597",
       "git:hexsha": "86cf6f4c87bdbc7eac9cf03c0095a48c10a9f597",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "v0.4.0"
     },
     {
