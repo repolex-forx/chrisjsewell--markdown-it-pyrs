@@ -51,7 +51,161 @@
       "ast": [
         "aggregate/ast/86cf6f4c87bdbc7eac9cf03c0095a48c10a9f597/chunk-001.nq.gz"
       ],
-      "repolex": "aggregate/repolex/86cf6f4c87bdbc7eac9cf03c0095a48c10a9f597/chunk-001.nq.gz"
+      "repolex": "aggregate/repolex/86cf6f4c87bdbc7eac9cf03c0095a48c10a9f597/chunk-001.nq.gz",
+      "lsp": "aggregate/lsp/86cf6f4c87bdbc7eac9cf03c0095a48c10a9f597.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "9.2.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+          "githubTag": "9.2.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-param-files",
+          "ecosystem": "PYPI",
+          "version": "0.6.0",
+          "githubOrg": "chrisjsewell",
+          "githubRepo": "pytest-param-files",
+          "githubCommit": "d11217880a2ea4089c6cccc36310beace2727687",
+          "githubTag": "v0.6.0",
+          "githubUrl": "https://github.com/chrisjsewell/pytest-param-files",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-benchmark",
+          "ecosystem": "PYPI",
+          "version": "5.3.1",
+          "githubOrg": "ionelmc",
+          "githubRepo": "pytest-benchmark",
+          "githubCommit": "97c52d8e0de0ac4f307e35716f723bf0376d63d2",
+          "githubTag": "v5.3.1",
+          "githubUrl": "https://github.com/ionelmc/pytest-benchmark",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "markdown-it-py",
+          "ecosystem": "PYPI",
+          "version": "4.3.0",
+          "githubOrg": "executablebooks",
+          "githubRepo": "markdown-it-py",
+          "githubCommit": "d504583a458edfa399ee800074244fceec288862",
+          "githubTag": "v4.3.0",
+          "githubUrl": "https://github.com/executablebooks/markdown-it-py",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "itertools",
+          "ecosystem": "CARGO",
+          "version": "0.11.0",
+          "githubOrg": "rust-itertools",
+          "githubRepo": "itertools",
+          "githubCommit": "62a6401afd6d45e1c2aea94c05cb5c70076b2ca4",
+          "githubTag": "v0.11.0",
+          "githubUrl": "https://github.com/rust-itertools/itertools",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "markdown-it",
+          "ecosystem": "CARGO",
+          "version": "0.6",
+          "githubOrg": "markdown-it-rust",
+          "githubRepo": "markdown-it",
+          "githubUrl": "https://github.com/markdown-it-rust/markdown-it",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "markdown-it-autolink",
+          "ecosystem": "CARGO",
+          "version": "0.2.0",
+          "githubOrg": "chrisjsewell",
+          "githubRepo": "markdown-it-plugins.rs",
+          "githubUrl": "https://github.com/chrisjsewell/markdown-it-plugins.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "markdown-it-deflist",
+          "ecosystem": "CARGO",
+          "version": "0.3.0",
+          "githubOrg": "chrisjsewell",
+          "githubRepo": "markdown-it-plugins.rs",
+          "githubUrl": "https://github.com/chrisjsewell/markdown-it-plugins.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "markdown-it-footnote",
+          "ecosystem": "CARGO",
+          "version": "0.2.0",
+          "githubOrg": "chrisjsewell",
+          "githubRepo": "markdown-it-plugins.rs",
+          "githubUrl": "https://github.com/chrisjsewell/markdown-it-plugins.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "markdown-it-front-matter",
+          "ecosystem": "CARGO",
+          "version": "0.3.0",
+          "githubOrg": "chrisjsewell",
+          "githubRepo": "markdown-it-plugins.rs",
+          "githubUrl": "https://github.com/chrisjsewell/markdown-it-plugins.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "markdown-it-heading-anchors",
+          "ecosystem": "CARGO",
+          "version": "0.3.0",
+          "githubOrg": "chrisjsewell",
+          "githubRepo": "markdown-it-plugins.rs",
+          "githubUrl": "https://github.com/chrisjsewell/markdown-it-plugins.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "markdown-it-tasklist",
+          "ecosystem": "CARGO",
+          "version": "0.2.0",
+          "githubOrg": "chrisjsewell",
+          "githubRepo": "markdown-it-plugins.rs",
+          "githubUrl": "https://github.com/chrisjsewell/markdown-it-plugins.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "markdown-it-gfm",
+          "ecosystem": "CARGO",
+          "version": "0.1.0",
+          "githubOrg": "chrisjsewell",
+          "githubRepo": "markdown-it-plugins.rs",
+          "githubCommit": "abd34b0d08be50605f7d9d6a44e7e3e634608fb2",
+          "githubTag": "v0.1.0",
+          "githubUrl": "https://github.com/chrisjsewell/markdown-it-plugins.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "pyo3",
+          "ecosystem": "CARGO",
+          "version": "0.19.2",
+          "githubOrg": "pyo3",
+          "githubRepo": "pyo3",
+          "githubCommit": "931e23dde6080602acaca00d5ca5884c6109efd3",
+          "githubTag": "v0.19.2",
+          "githubUrl": "https://github.com/pyo3/pyo3",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "stacker",
+          "ecosystem": "CARGO",
+          "version": "0.1.15",
+          "githubOrg": "rust-lang",
+          "githubRepo": "stacker",
+          "githubCommit": "5df2309ccf7b1671909386c2670c7342a4d44142",
+          "githubTag": "stacker-0.1.15",
+          "githubUrl": "https://github.com/rust-lang/stacker",
+          "source": "build_file:Cargo.toml"
+        }
+      ]
     }
   ],
   "commit": "commit/commit.nq.gz",
