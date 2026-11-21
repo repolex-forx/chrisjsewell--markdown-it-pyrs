@@ -38,6 +38,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── ast
 │   │   └── 86cf6f4c87bdbc7eac9cf03c0095a48c10a9f597
 │   │       └── chunk-001.nq.gz
+│   ├── lsp
+│   │   └── 86cf6f4c87bdbc7eac9cf03c0095a48c10a9f597.nq.gz
 │   └── repolex
 │       └── 86cf6f4c87bdbc7eac9cf03c0095a48c10a9f597
 │           └── chunk-001.nq.gz
@@ -84,6 +86,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── 86cf6f4c87bdbc7eac9cf03c0095a48c10a9f597.nq.gz
 ├── filetree
 │   └── 86cf6f4c87bdbc7eac9cf03c0095a48c10a9f597.nq.gz
 ├── issue
@@ -93,7 +97,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-13 directories, 46 files
+15 directories, 48 files
 ```
 
 | Directory | What it contains |
@@ -114,4 +118,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [chrisjsewell/markdown-it-pyrs](https://github.com/chrisjsewell/markdown-it-pyrs)
 
 ---
-*Parsed on 2026-11-06 by [repolex](https://repolex.ai)*
+*Parsed on 2026-11-21 by [repolex](https://repolex.ai)*
